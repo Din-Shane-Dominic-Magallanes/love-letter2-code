@@ -1,6 +1,30 @@
 .top-wrapper {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 200px;
+}
+
+.big-icon {
+  width: 520px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.first-text {
+  font-family: 'SF Pro Rounded', sans-serif;
+  font-size: 48px;
+  color: #d9534f; /* Romantic red color */
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.second-text {
+  text-align: center;
+  font-family: 'SF Pro Rounded', sans-serif;
+  font-size: 36px;
+  color: #6f42c1; /* Romantic purple color */
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 /* Grid */
@@ -15,7 +39,17 @@ body {
   font-family: 'SF Pro Rounded', sans-serif;
 }
 
+h2 {
+  color: white;
+}
+
 /* Grid Layout */
+
+
+.masonry-layout {
+  background-color: white;
+  border-radius: 30px;
+}
 
 .gallery-container {
   display: grid;
@@ -34,12 +68,20 @@ body {
   display: flex;
   align-items: end;
   transition: .3s ease;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .gallery-item.size-col-2x.size-row-2x {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
   background-color: #359dd0;
+  background-position: center;
+  background-position: center 1%;
 }
 
 .gallery-item.size-row-2x {
