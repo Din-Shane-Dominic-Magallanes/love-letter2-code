@@ -10,12 +10,12 @@ $(document).ready(function () {
 
   yesButton.click(function () {
     decisionImage.attr("src", "pictures/Happy.gif");
-    decisionText.text("Yay! 💖 Happy Valentine’s Day!");
+    decisionText.text("Yay! 💖 See you Ganda!");
   });
 
   noButton.click(function () {
     decisionImage.attr("src", "pictures/Sad.gif");
-    decisionText.text("HUHUHUHUHUHU");
+    decisionText.text("HUHUHUHUHUHU :(");
   });
 
   envelope.click(function () {
