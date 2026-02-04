@@ -3,6 +3,21 @@ $(document).ready(function () {
   var btn_open = $("#open");
   var btn_reset = $("#reset");
 
+  var yesButton = $("#yes-button");
+  var noButton = $("#no-button");
+  var decisionImage = $("#decision-image");
+  var decisionText = $("#decision-text");
+
+  yesButton.click(function () {
+    decisionImage.attr("src", "pictures/Happy.gif");
+    decisionText.text("Yay! 💖 Happy Valentine’s Day!");
+  });
+
+  noButton.click(function () {
+    decisionImage.attr("src", "pictures/Sad.gif");
+    decisionText.text("HUHUHUHUHUHU");
+  });
+
   envelope.click(function () {
     open();
   });
