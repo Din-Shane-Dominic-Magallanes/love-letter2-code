@@ -89,7 +89,7 @@
 }
 
 .big-icon {
-  width: 500px;
+  width: min(500px, 90vw);
   height: auto;
   margin-bottom: 30px;
   border-radius: 20px;
@@ -128,6 +128,7 @@
 }
 
 body {
+  overflow: hidden;
   font-family: 'SF Pro Rounded', sans-serif;
   background:
     radial-gradient(circle at top left, rgba(255, 182, 193, 0.35), transparent 40%),
@@ -247,7 +248,7 @@ h2 {
 }
 
 #decision-image {
-  width: 500px;
+  width: min(500px, 90vw);
   margin-bottom: 20px;
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(217, 83, 79, 0.25);
