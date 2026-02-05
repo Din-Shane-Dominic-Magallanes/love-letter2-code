@@ -128,7 +128,6 @@
 }
 
 body {
-  overflow: hidden;
   font-family: 'SF Pro Rounded', sans-serif;
   background:
     radial-gradient(circle at top left, rgba(255, 182, 193, 0.35), transparent 40%),
